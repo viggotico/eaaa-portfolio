@@ -9,8 +9,8 @@ import { Column } from './components/Column';
 import { ProjectDescription } from './components/ProjectDescription';
 import { translate } from './translation';
 
-import { radarColors, radarDataOther, radarDataProgramming } from './RadarSettings';
-import RadarChart from 'react-animate-radar-chart';
+// import { radarColors, radarDataOther, radarDataProgramming } from './RadarSettings';
+// import RadarChart from 'react-animate-radar-chart';
 
 import {
   Animator,
