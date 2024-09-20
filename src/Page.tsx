@@ -98,7 +98,7 @@ export const Page = () => {
                   Move(0, 0, -1000, 200),
                   FadeOut(1, 0)
                 )}>
-                  <ScrollIndicator text={isEnglish ? 'scroll to explore' : 'scroll for at gå på opdagelse'} />
+                  <ScrollIndicator text={isEnglish ? 'scroll to explore' : <>scroll ned for at<br />gå på opdagelse</>} />
                 </Animator>
               </Column>
             </Animator>

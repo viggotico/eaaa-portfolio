@@ -10,10 +10,6 @@
     }
 }
 
-.scrollIndicatorContainer:hover {
-    cursor: pointer;
-}
-
 .scrollIndicator {
     width: 0.7vw;
     height: 0.7vw;
@@ -23,6 +19,7 @@
     animation-iteration-count: infinite;
 
     @media (max-aspect-ratio: 3/2.7) {
+        animation-name: scrollIndicatorAnimationMobile;
         width: 2vw;
         height: 2vw;
     }
@@ -49,17 +46,10 @@
 }
 
 .scrollIndicatorContainer span {
+    text-align: center;
     @media (max-aspect-ratio: 3/2.7) {
         font-size: 2vw;
     }
-}
-
-.scrollIndicatorContainer:hover span {
-    color: var(--secondary-color);
-}
-
-.scrollIndicatorContainer:hover .scrollIndicatorItem {
-    border-color: var(--secondary-color);
 }
 
 @keyframes scrollIndicatorAnimation {
@@ -68,6 +58,18 @@
     }
     50% {
         transform: translateY(0.5vw);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes scrollIndicatorAnimationMobile {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(1.5vw);
     }
     100% {
         transform: translateY(0);
