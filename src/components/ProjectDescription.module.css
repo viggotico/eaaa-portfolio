@@ -1,0 +1,23 @@
+.projectDescription {
+    display: flex;
+    place-content: center;
+    place-items: center;
+    gap: 1vw;
+    border-top-color: var(--main-color);
+    border-top-width: 0.5vw;
+    border-top-style: solid;
+}
+
+.projectDescription span {
+    font-size: 0.7vw;
+    padding: 0.5vw 0.6vw;
+    border-radius: 10px;
+    background-color: var(--main-color);
+    color: white;
+
+    @media (max-aspect-ratio: 3/2.7) {
+        border-radius: 5px;
+        font-size: 2vw;
+        padding: 1vw 1.2vw;
+    }
+}

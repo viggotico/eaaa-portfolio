@@ -10,10 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@carbon/charts-react": "^1.22.0",
     "react": "^18.3.1",
+    "react-animate-radar-chart": "^1.1.0",
     "react-dom": "^18.3.1",
-    "react-type-animation": "^3.2.0"
+    "react-responsive": "^10.0.0",
+    "react-scroll-motion": "^0.3.3",
+    "react-type-animation": "^3.2.0",
+    "scroll-into-view-if-needed": "^3.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
@@ -26,6 +29,7 @@
     "globals": "^15.9.0",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1",
-    "vite": "^5.4.1"
+    "vite": "^5.4.1",
+    "vite-plugin-svgr": "^4.2.0"
   }
 }

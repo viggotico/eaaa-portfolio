@@ -1,7 +1,123 @@
 .main {
+    position: relative;
     display: flex;
     place-content: center;
     place-items: center;
+    overflow-x: hidden;
     width: 100vw;
     min-height: 100vh;
+}
+
+.lang {
+    z-index: 1000;
+    position: fixed;
+    left: 2vw;
+    top: 2vw;
+
+    @media (max-aspect-ratio: 3/2.7) {
+        left: 5vw;
+        top: 5vw;
+    }
+}
+
+.lang:hover {
+    filter: brightness(1.5);
+    cursor: pointer;
+}
+
+.lang span {
+    font-size: 1vw;
+
+    @media (max-aspect-ratio: 3/2.7) {
+        font-size: 4vw;
+    }
+}
+
+.lang svg {
+    height: 0.8vw;
+    border-radius: 5px;
+    border: solid 2px var(--main-color);
+
+    @media (max-aspect-ratio: 3/2.7) {
+        border-radius: 3px;
+        border: solid 1px var(--main-color);
+        height: 3vw;
+    }
+}
+
+.scrollContainer div {
+    user-select: unset !important;
+}
+
+.skillsImg {
+    width: 20vw;
+
+    @media (max-aspect-ratio: 3/2.7) {
+        width: 80vw;
+    }
+}
+
+.stacks,
+.stacksMobile {
+    margin-top: 1vw;
+}
+
+.stacks span,
+.stacksMore,
+.stacksMobile span,
+.stacksMoreMobile {
+    color: white;
+    font-size: 0.8vw;
+    padding: 0.2vw 0.3vw;
+    border-radius: 10px;
+    background-color: var(--main-color);
+}
+
+.stacksMobile span,
+.stacksMoreMobile {
+    color: white;
+    font-size: 4vw;
+    padding: 2vw 3vw;
+}
+
+.stacksMore,
+.stacksMoreMobile {
+    background-color: #4f7a93 !important;
+}
+
+.table {
+    width: 50vw;
+
+    @media (max-aspect-ratio: 3/2.7) {
+        width: 80vw;
+    }
+}
+
+.tableCompact {
+    width: 30vw;
+
+    @media (max-aspect-ratio: 3/2.7) {
+        width: 80vw;
+    }
+}
+
+.table p,
+.tableCompact p {
+    font-size: 1.2vw;
+
+    @media (max-aspect-ratio: 3/2.7) {
+        font-size: 4vw;
+    }
+}
+
+.table tr,
+.table td,
+.tableCompact tr,
+.tableCompact td {
+    height: 1vw;
+}
+
+.table td,
+.tableCompact td {
+    width: 50%;
 }

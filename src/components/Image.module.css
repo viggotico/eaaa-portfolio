@@ -1,0 +1,52 @@
+.image {
+    border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 50%;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: borderAnimation;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    pointer-events: none;
+    width: 30vw;
+    height: 70vh;
+
+    @media (max-aspect-ratio: 3/2.7) {
+        width: 90vw;
+        height: 50vh;
+        border-bottom-left-radius: 40%;
+        border-bottom-right-radius: 20%;
+        animation-name: borderAnimationMobile;
+    }
+}
+
+@keyframes borderAnimation {
+    0% {
+        border-bottom-left-radius: 70%;
+        border-bottom-right-radius: 50%;
+    }
+    50% {
+        border-bottom-left-radius: 20%;
+        border-bottom-right-radius: 70%;
+    }
+    100% {
+        border-bottom-left-radius: 70%;
+        border-bottom-right-radius: 50%;
+    }
+}
+
+@keyframes borderAnimationMobile {
+    0% {
+        border-bottom-left-radius: 40%;
+        border-bottom-right-radius: 20%;
+    }
+    50% {
+        border-bottom-left-radius: 20%;
+        border-bottom-right-radius: 40%;
+    }
+    100% {
+        border-bottom-left-radius: 40%;
+        border-bottom-right-radius: 20%;
+    }
+}
