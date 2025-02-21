@@ -5,7 +5,7 @@ export const translate = (style: any, isEnglish: boolean) => {
                 <h3>intro</h3>
                 <p>
                     My name is Victor Sango.<br />
-                    I'm a {(Math.floor(new Date().getFullYear() - new Date('2001-12-12').getFullYear()) - 2)} year old <strong>full stack</strong> developer from Denmark.
+                    I'm a {(Math.floor(new Date().getFullYear() - new Date('2001-12-12').getFullYear()) - 1)} year old <strong>full stack</strong> developer from Denmark.
                 </p>
                 <p>
                     I've been programming <strong>for more than 7 years</strong> and started with <strong>C#</strong> as my first language.
@@ -21,7 +21,7 @@ export const translate = (style: any, isEnglish: boolean) => {
                 <h3>intro</h3>
                 <p>
                     Jeg hedder Victor Sango.<br />
-                    Jeg er en {new Date().getFullYear() - new Date('2001-12-12').getFullYear()} år gammel <strong>full stack</strong> udvikler fra Danmark.
+                    Jeg er en {(Math.floor(new Date().getFullYear() - new Date('2001-12-12').getFullYear()) - 1)} år gammel <strong>full stack</strong> udvikler fra Danmark.
                 </p>
                 <p>
                     Jeg har programmeret i <strong>over 7 år</strong> og startede med <strong>C#</strong> som mit første sprog.
