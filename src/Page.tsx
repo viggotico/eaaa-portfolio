@@ -281,9 +281,9 @@ export const Page = () => {
           )}>
             <ProjectDescription
               isEnglish={isEnglish}
-              title='steno museet'
-              description='HTML + CSS + JavaScript'
-              url='https://eaaa.deltabox.studio/steno-museet/web'
+              title='mentorship'
+              description='React.js + Typescript'
+              url='https://eaaa-mentor.deltabox.studio'
             />
           </Animator>
         </Section>
