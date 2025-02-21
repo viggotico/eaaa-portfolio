@@ -5,7 +5,7 @@ export const translate = (style: any, isEnglish: boolean) => {
                 <h3>intro</h3>
                 <p>
                     My name is Victor Sango.<br />
-                    I'm a {new Date().getFullYear() - new Date('2001-12-12').getFullYear()} year old <strong>full stack</strong> developer from Denmark.
+                    I'm a {(Math.floor(new Date().getFullYear() - new Date('2001-12-12').getFullYear()) - 1)} year old <strong>full stack</strong> developer from Denmark.
                 </p>
                 <p>
                     I've been programming <strong>for more than 7 years</strong> and started with <strong>C#</strong> as my first language.
