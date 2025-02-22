@@ -381,8 +381,12 @@ export const Page = () => {
                 <table className={style.tableCompact} cellPadding='0'>
                   <tbody>
                     <tr>
+                      <td><p>linkedin</p></td>
+                      <td><a href='https://www.linkedin.com/in/viggotico' target='_blank'><p>@viggotico</p></a></td>
+                    </tr>
+                    <tr>
                       <td><p>email</p></td>
-                      <td><a href='mailto:victors4ngo@gmail.com' target='_blank'><p>victors4ngo@gmail.com</p></a></td>
+                      <td><a href='mailto:viggo_tico@hotmail.com' target='_blank'><p>viggo_tico@hotmail.com</p></a></td>
                     </tr>
                     <tr>
                       <td><p>github</p></td>
