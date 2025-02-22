@@ -39,6 +39,10 @@ export const translate = (style: any, isEnglish: boolean) => {
                 <table className={style.table} cellPadding='0'>
                     <tbody>
                         <tr>
+                            <td><p><strong>2025 - now</strong></p></td>
+                            <td><p><strong>CEO at Makambi</strong></p></td>
+                        </tr>
+                        <tr>
                             <td><p><strong>2023 - 2025</strong></p></td>
                             <td><p><strong>Multimedia Design (EAAA)</strong></p></td>
                         </tr>
@@ -74,6 +78,10 @@ export const translate = (style: any, isEnglish: boolean) => {
                 <h3>rejse</h3>
                 <table className={style.table} cellPadding='0'>
                     <tbody>
+                        <tr>
+                            <td><p><strong>2025 - nu</strong></p></td>
+                            <td><p><strong>CEO hos Makambi</strong></p></td>
+                        </tr>
                         <tr>
                             <td><p><strong>2023 - 2025</strong></p></td>
                             <td><p><strong>Multimediedesigner (EAAA)</strong></p></td>
