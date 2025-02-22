@@ -369,7 +369,7 @@ export const Page = () => {
                 src={me8_small}
                 scale='70%'
                 width={isMobile ? undefined : '20vw'}
-                height={isMobile ? '40vh' : '60vh'}
+                height={isMobile ? '33vh' : '48vh'}
               />
             </Animator>
             <Animator animation={batch(
