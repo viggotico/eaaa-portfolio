@@ -296,7 +296,7 @@ export const Page = () => {
             <ProjectDescription
               isEnglish={isEnglish}
               title='studietur'
-              description='Node.js + HTML + CSS + JavaScript'
+              description='Node.js + AWS S3 + HTML/CSS + JavaScript'
               url='https://eaaa-studietur.deltabox.studio'
             />
           </Animator>
