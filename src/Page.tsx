@@ -174,8 +174,8 @@ export const Page = () => {
                     <Column className={style.stacks} style={{ gap: '0.5vw' }}>
                       <span>Node.js</span>
                       <span>React.js</span>
-                      <span>Strapi</span>
-                      <span>Railway.app</span>
+                      <span>React Native</span>
+                      <span>Strapi & Directus</span>
                       <span>AWS S3</span>
                       <span>.NET</span>
                       <span>LangChain (AI)</span>
