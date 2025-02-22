@@ -14,12 +14,12 @@ export const ProjectDescription = ({ title, description, projectDescription, url
     const isMobile = useMediaQuery({ query: '(max-aspect-ratio: 3/2.7)' });
 
     return <a href={url} target='_blank'>
-        <Column style={{ gap: isMobile ? '4vw' : '2vw' }}>
+        <Column style={{ gap: isMobile ? '3vw' : '1.5vw' }}>
             <div className={style.projectDescription}>
                 <p><strong>{title}</strong></p>
                 <span>{description}</span>
             </div>
-            {projectDescription ? <p>{projectDescription}</p> : <></>}
+            {projectDescription ? <p style={{ fontSize: '1vw', margin: '-1rem 0 0 0' }}>{projectDescription}</p> : <></>}
             <button>{isEnglish ? 'see more' : 'se mere'}</button>
         </Column>
     </a>;
