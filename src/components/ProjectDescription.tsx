@@ -5,6 +5,7 @@ import style from './ProjectDescription.module.css';
 interface ProjectDescriptionProps {
     title: string;
     description: string;
+    projectDescription?: string;
     url: string;
     isEnglish: boolean;
 }
@@ -18,6 +19,7 @@ export const ProjectDescription = ({ title, description, url, isEnglish }: Proje
                 <p><strong>{title}</strong></p>
                 <span>{description}</span>
             </div>
+            {projectDescription ? <p>{projectDescription}</p> : <></>}
             <button>{isEnglish ? 'see more' : 'se mere'}</button>
         </Column>
     </a>;
