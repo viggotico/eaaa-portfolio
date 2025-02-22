@@ -283,6 +283,7 @@ export const Page = () => {
               isEnglish={isEnglish}
               title='mentorship'
               description='React.js + Typescript'
+              projectDescription={isEnglish ? '(hobby project)' : '(hobby projekt)'}
               url='https://eaaa-mentor.deltabox.studio'
             />
           </Animator>
@@ -297,6 +298,7 @@ export const Page = () => {
               isEnglish={isEnglish}
               title='studietur'
               description='Node.js + AWS S3 + HTML/CSS + JavaScript'
+              projectDescription={isEnglish ? '(hobby project)' : '(hobby projekt)'}
               url='https://eaaa-studietur.deltabox.studio'
             />
           </Animator>
@@ -311,6 +313,7 @@ export const Page = () => {
               isEnglish={isEnglish}
               title='nippon'
               description='HTML + CSS + JavaScript'
+              projectDescription={isEnglish ? '(school project)' : '(skoleprojekt)'}
               url='https://eaaa.deltabox.studio/nippon-maeltidskasser'
             />
           </Animator>
@@ -325,6 +328,7 @@ export const Page = () => {
               isEnglish={isEnglish}
               title={isEnglish ? 'price calculator' : 'pris udregner'}
               description='HTML + CSS + JavaScript'
+              projectDescription={isEnglish ? '(part of a school project)' : '(en del af et skoleprojekt)'}
               url='https://github.com/viggotico/pris-udregner'
             />
           </Animator>
@@ -339,6 +343,7 @@ export const Page = () => {
               isEnglish={isEnglish}
               title='online magasin'
               description='HTML + CSS + JavaScript'
+              projectDescription={isEnglish ? '(school project)' : '(skoleprojekt)'}
               url='https://eaaa.deltabox.studio/onlinemagasin'
             />
           </Animator>
