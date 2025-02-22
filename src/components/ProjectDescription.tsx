@@ -10,7 +10,7 @@ interface ProjectDescriptionProps {
     isEnglish: boolean;
 }
 
-export const ProjectDescription = ({ title, description, url, isEnglish }: ProjectDescriptionProps) => {
+export const ProjectDescription = ({ title, description, projectDescription, url, isEnglish }: ProjectDescriptionProps) => {
     const isMobile = useMediaQuery({ query: '(max-aspect-ratio: 3/2.7)' });
 
     return <a href={url} target='_blank'>
