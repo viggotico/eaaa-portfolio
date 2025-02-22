@@ -361,19 +361,17 @@ export const Page = () => {
         </Section>
         <Section id='cta-contact'>
           <Row style={{ gap: isMobile ? '10vw' : undefined }}>
-            {/*
-              <Animator animation={batch(
-                MoveIn(-1000, 0),
-                FadeIn(0, 1)
-              )}>
-                <Image
-                  src={me8_small}
-                  scale='70%'
-                  width={isMobile ? undefined : '20vw'}
-                  height={isMobile ? '40vh' : '60vh'}
-                />
-              </Animator>
-             */}
+            <Animator animation={batch(
+              MoveIn(-1000, 0),
+              FadeIn(0, 1)
+            )}>
+              <Image
+                src={me8_small}
+                scale='70%'
+                width={isMobile ? undefined : '20vw'}
+                height={isMobile ? '40vh' : '60vh'}
+              />
+            </Animator>
             <Animator animation={batch(
               MoveIn(1000, 0),
               FadeIn(0, 1)
